@@ -1,0 +1,15 @@
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\bin\Debug\net6.0\Rayen_App_Test_1.exe
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\bin\Debug\net6.0\Rayen_App_Test_1.deps.json
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\bin\Debug\net6.0\Rayen_App_Test_1.runtimeconfig.json
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\bin\Debug\net6.0\Rayen_App_Test_1.dll
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\bin\Debug\net6.0\Rayen_App_Test_1.pdb
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.csproj.AssemblyReference.cache
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.AssemblyInfoInputs.cache
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.AssemblyInfo.cs
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.csproj.CoreCompileInputs.cache
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.dll
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\refint\Rayen_App_Test_1.dll
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.pdb
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\Rayen_App_Test_1.genruntimeconfig.cache
+C:\FJ\Dev_Trash\Rayen_App_Test_1\Rayen_App_Test_1\obj\Debug\net6.0\ref\Rayen_App_Test_1.dll
