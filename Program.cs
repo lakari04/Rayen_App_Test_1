@@ -1,105 +1,68 @@
 ﻿Console.WriteLine("Hallo, Rayen!");
 
-//Aufgabe7();
-Aufgabe7_V2();
+Aufgabe7();
+//Aufgabe7_V2();
 
 static void Aufgabe7()
-
 {
+    decimal gesamtPreis = 0M;
+    decimal zwischenPreis1 = 0M;
+    decimal zwischenPreis2 = 0M;
+    decimal zwischenPreis3 = 0M;
+    decimal zwischenPreis4 = 0M;
+    string ausgabe = "Unzulässige eingaben" ;
+
     Console.Write("Einzelpreis: ");
 
     string eingabe = Console.ReadLine();
 
-    decimal cost = decimal.Parse(eingabe);
+    decimal einzelPreis = decimal.Parse(eingabe);
 
-
+    int zaehler = 0;
+    
     Console.Write("Anzahl: ");
 
     eingabe = Console.ReadLine();
 
-    int count = int.Parse(eingabe);
+    int anzahl = int.Parse(eingabe);
 
-
-    decimal gespreis;
-
-    decimal zwischenp = 0M;
-
-    decimal zwischenp1 = 0M;
-
-    decimal zwischenp2 = 0M;
-
-    decimal zwischenp3 = 0M;
-
-    string ausgabe;
-
-    int count1;
-
-    int count2;
-
-    int count3;
-
-
-    if (count <= 9)
-
+    if (anzahl < 10)
     {
-        gespreis = (count * cost);
-
-        gespreis = zwischenp;
-
-        // Du sollst den Gesamtpreis ausgeben nicht die Stückzahl, der Wert ist richtig, das label davor aber nicht
-        ausgabe = $"Stückzahl {gespreis:n2}";
+        gesamtPreis = (anzahl * einzelPreis);
     }
 
-    if (count >= 10 && count <= 99)
-
+    ausgabe = $"Stückzahl {gesamtPreis:n2}";
+    
+    if (anzahl >= 9)
     {
-        count1 = count - 9;
-
-        zwischenp1 = (count1 * cost) * 0.9M + (9 * cost);
-
-        gespreis = zwischenp + zwischenp1;
-
-        // Du sollst den Gesamtpreis ausgeben nicht die Stückzahl, der Wert ist richtig, das label davor aber nicht
-        ausgabe = $"Stückzahl {gespreis:n2}";
+        zwischenPreis1 = (9 * einzelPreis);
     }
+    gesamtPreis = zwischenPreis1;
+    ausgabe = $"Stückzahl {gesamtPreis:n2}";
 
-    if (count >= 100 && count <= 999)
-
+    if (anzahl >= 99)
     {
-        count2 = count - 99;
-
-        zwischenp2 = (count2 * cost) * 0.85M;
-
-        gespreis = zwischenp + zwischenp1 + zwischenp2;
-
-        // Du sollst den Gesamtpreis ausgeben nicht die Stückzahl, der Wert ist richtig, das label davor aber nicht
-        ausgabe = $"Stückzahl {gespreis:n2}";
+        zwischenPreis2 = (99 * einzelPreis) * 0.9M;
     }
+    gesamtPreis = zwischenPreis1 + zwischenPreis2;
+    ausgabe = $"Stückzahl {gesamtPreis:n2}";
 
-    if (count >= 1000)
-
+    if (anzahl >= 999)
     {
-        // Ab einer Eingabe 1001 ist nicht mehr unzulässig
-        count3 = count - 999;
-
-        zwischenp3 = (count3 * cost) * 0.8M;
-
-        gespreis = zwischenp + zwischenp1 + zwischenp2 + zwischenp3;
-
-        // Du sollst den Gesamtpreis ausgeben nicht die Stückzahl, der Wert ist richtig, das label davor aber nicht
-        ausgabe = $"Stückzahl {gespreis:n2}";
+        zwischenPreis3 = (999 * einzelPreis) * 0.85M;
+        
     }
+    gesamtPreis = zwischenPreis1 + zwischenPreis2 + zwischenPreis3;
+    ausgabe = $"Stückzahl {gesamtPreis:n2}";
 
-    else
-
+    if (anzahl >= 1000)
     {
-        //Bitte mit early return arbeiten
-        //D.h. dein programm muss nicht komplett bis nach unten laufen, obwohl du ganz oben schon weisst dass die eingabe unzulässig ist :) Lies dir den link kurz durch
-        //https://betterprogramming.pub/are-early-returns-any-good-eed4b4d03866
+        zaehler = anzahl - 1000;
 
-        ausgabe = "Unzulässige eingaben";
+        zwischenPreis4 = (zaehler * einzelPreis) * 0.8M;
     }
-
+    gesamtPreis = zwischenPreis1 + zwischenPreis2 + zwischenPreis3 + zwischenPreis4;
+    ausgabe = $"Stückzahl {gesamtPreis:n2}";
 
     Console.WriteLine($"{ausgabe}");
 }
